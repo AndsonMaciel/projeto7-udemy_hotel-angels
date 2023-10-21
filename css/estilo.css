@@ -44,6 +44,9 @@ h4 {
     background-color: color-mix(in srgb, var(--primary-color), white 10%);
 }
 
+
+
+
 .heroBanner {
     text-align: center;
     background-color: #f6f6f6;
@@ -81,6 +84,9 @@ h4 {
     border-radius: 5px;
 }
 
+
+
+
 .middleContent {
     background-color: #f6f6f6;
     text-align: center;
@@ -108,17 +114,63 @@ h4 {
 }
 
 
+
 .row {
     display: flex;
     flex-wrap: wrap;
     gap: var(--default-gap);
 }
 
-.col{
+.col {
     flex: 1 0 auto;
     width: 100%;
 }
 
-.col-sm-12{
-    width:100%;
+.col-sm-12 {
+    width: 100%;
+}
+
+
+
+.mainContent {
+    padding: 2em;
+}
+
+.mainContent p {
+    line-height: 1.2;
+}
+
+.mainContent_img img {
+    width: 100%;
+}
+
+.mainContent_title {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: normal;
+    letter-spacing: .2em;
+    font-size: 1.25em;
+}
+
+.mainContent .row {
+    row-gap: 4em;
+}
+
+.mainContent_article {
+    container: main-content / inline-size;
+}
+
+@container main-content (min-width: 500px) {
+    .mainContent_container {
+        display: flex;
+        gap: var(--default-gap);
+    }
+
+    .mainContent_title {
+        margin-top: 0;
+    }
+
+    .mainContent_img img {
+        max-height: 382px;
+    }
 }

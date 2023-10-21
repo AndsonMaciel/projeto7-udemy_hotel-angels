@@ -85,4 +85,8 @@
     .col-xl-3 {
         width: calc(25% - var(--default-gap));
     }
+
+    .col-xl-6 {
+        width: calc(50% - var(--default-gap));
+    }
 }
