@@ -2,12 +2,19 @@
 Projeto de um site simples cujo o objetivo é trabalhar com códigos responsivos
 
 Captura de tela da viewport no tamanho de uma tela mobile
+
 ![Captura de Tela (20)](https://github.com/AndsonMaciel/projeto7-udemy_hotel-angels/assets/142698091/d56b8849-fd44-46f4-8b18-c7012e119253)
+
 ![Captura de Tela (21)](https://github.com/AndsonMaciel/projeto7-udemy_hotel-angels/assets/142698091/df20eca2-d468-48ce-a228-1738390cb9a6)
+
 ![Captura de Tela (22)](https://github.com/AndsonMaciel/projeto7-udemy_hotel-angels/assets/142698091/6a32f8f4-9e4a-4ce8-824a-c123db28ae04)
+
 ![Captura de Tela (23)](https://github.com/AndsonMaciel/projeto7-udemy_hotel-angels/assets/142698091/b2606322-c4b9-4bd4-92bf-8848a43bf4a0)
+
 ![Captura de Tela (24)](https://github.com/AndsonMaciel/projeto7-udemy_hotel-angels/assets/142698091/4a862664-b4b5-4745-9c5d-7c84bf40819e)
+
 ![Captura de Tela (25)](https://github.com/AndsonMaciel/projeto7-udemy_hotel-angels/assets/142698091/e3b191f7-f9b8-44d1-bb25-e9d37d4fb8d2)
+
 ![Captura de Tela (26)](https://github.com/AndsonMaciel/projeto7-udemy_hotel-angels/assets/142698091/31671277-6f93-448c-a133-9dd62f20c66a)
 
 Captura de tela da viewport no tamanho de 1024px
