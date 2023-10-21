@@ -6,8 +6,16 @@ html {
     font-family: sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Oxygen', sans-serif;
+}
+
 .maxWidth {
     max-width: 70.25em;
+    margin: auto;
 }
 
 .top-header {
@@ -21,6 +29,7 @@ html {
 .top-header_nav ul {
     list-style-type: none;
     padding: 0;
+    margin-bottom: 0;
 }
 
 .top-header_nav a {
@@ -30,33 +39,43 @@ html {
     padding: 1em;
 }
 
-.top-header_nav a:hover{
+.top-header_nav a:hover {
     background-color: color-mix(in srgb, var(--primary-color), white 10%);
 }
 
-@media screen and (min-width: 48.75em) {
-    .top-header {
-        display: flex;
-        justify-content: space-between;
-    }
+.heroBanner {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 1em;
+}
 
-    .top-header_logo {
-        margin-left: 1.5em;
-    }
+.heroBanner_iconPlay {
+    height: 5em;
+    width: 5em;
+    display: none;
+}
 
-    .top-header_nav {
-        background-color: initial;
-    }
+.heroBanner_iconPlay img {
+    width: 100%;
+}
 
-    .top-header_nav li {
-        display: inline-block;
-    }
+.heroBanner_title {
+    color: var(--primary-color);
+    font-size: 1.5em;
+    margin: 1.5em 0;
+}
 
-    .top-header_nav a {
-        color: var(--primary-color);
-    }
+.heroBanner_subtitle {
+    font-size: 1em;
+    color: color-mix(in srgb, var(--primary-color), white);
+    line-height: 1.5;
+}
 
-    .top-header_nav a:hover {
-        background-color: color-mix(in srgb, var(--primary-color), white 85%);
-    }
+.heroBanner_btn {
+    display: inline-block;
+    padding: .9em 2.5em;
+    background-color: #58c4c4;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
 }
